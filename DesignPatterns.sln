@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "Creational\Singleton
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAndMonitor", "Creational\Singleton\LazyAndMonitor\LazyAndMonitor.csproj", "{24C1404F-7041-4274-81DE-B0357164BC6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{C56A9A9C-DDEC-4A28-9C11-701D01CD52C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManufacturer", "Creational\FactoryMethod\CarManufacturer\CarManufacturer.csproj", "{D1E53AA7-0E22-4100-9171-B47535A3A0EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{24C1404F-7041-4274-81DE-B0357164BC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C1404F-7041-4274-81DE-B0357164BC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C1404F-7041-4274-81DE-B0357164BC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E53AA7-0E22-4100-9171-B47535A3A0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E53AA7-0E22-4100-9171-B47535A3A0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E53AA7-0E22-4100-9171-B47535A3A0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E53AA7-0E22-4100-9171-B47535A3A0EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +41,8 @@ Global
 		{4806507C-C74D-42A1-9BEF-38EABCD6FD8E} = {4D2F38DB-9A2A-4D40-ABCC-4C915EFA7C97}
 		{B2FE2A4C-00DE-4B97-AB94-7F6C3C3D51E8} = {4806507C-C74D-42A1-9BEF-38EABCD6FD8E}
 		{24C1404F-7041-4274-81DE-B0357164BC6A} = {4806507C-C74D-42A1-9BEF-38EABCD6FD8E}
+		{C56A9A9C-DDEC-4A28-9C11-701D01CD52C7} = {4D2F38DB-9A2A-4D40-ABCC-4C915EFA7C97}
+		{D1E53AA7-0E22-4100-9171-B47535A3A0EB} = {C56A9A9C-DDEC-4A28-9C11-701D01CD52C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E656681-A371-46CD-8D34-42FD85FB67AE}
