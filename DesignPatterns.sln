@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CellPhoneManufacturer", "Cr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithSingletonPattern", "Creational\AbstractFactory\AbstractFactoryWithSingletonPattern\AbstractFactoryWithSingletonPattern.csproj", "{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{2FBAE324-B66D-4046-AE93-3DDE4E22C63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Housing", "Creational\Builder\Housing\Housing.csproj", "{51C7409B-82F0-434F-8D61-799DCAF5453F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C7409B-82F0-434F-8D61-799DCAF5453F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C7409B-82F0-434F-8D61-799DCAF5453F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C7409B-82F0-434F-8D61-799DCAF5453F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C7409B-82F0-434F-8D61-799DCAF5453F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,8 @@ Global
 		{4B747476-1D03-4E65-AAC1-F02BF0E16AF5} = {4D2F38DB-9A2A-4D40-ABCC-4C915EFA7C97}
 		{9F299A00-E038-4BBC-A45B-9A1E25A9CB74} = {4B747476-1D03-4E65-AAC1-F02BF0E16AF5}
 		{0E0120E8-F146-42E8-91F4-DB67CD67ECD9} = {4B747476-1D03-4E65-AAC1-F02BF0E16AF5}
+		{2FBAE324-B66D-4046-AE93-3DDE4E22C63E} = {4D2F38DB-9A2A-4D40-ABCC-4C915EFA7C97}
+		{51C7409B-82F0-434F-8D61-799DCAF5453F} = {2FBAE324-B66D-4046-AE93-3DDE4E22C63E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E656681-A371-46CD-8D34-42FD85FB67AE}
