@@ -3,7 +3,7 @@
 //Concrete Factory
 internal class SqlServerConnectionFactory : IConnectionFactory
 {
-  private readonly Dictionary<string, IDbConnection> _connections = new Dictionary<string, IDbConnection>();
+  private static readonly Dictionary<string, IDbConnection> _connections = new Dictionary<string, IDbConnection>();
   public IDbConnection CreateConnection(string hostName, int port, string username, string password)
   {
     string key = $"{hostName}:{port}:{username}:{password}";
