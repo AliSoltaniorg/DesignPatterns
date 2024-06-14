@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarManufacturer", "Creation
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{4B747476-1D03-4E65-AAC1-F02BF0E16AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellPhoneManufacturer", "Creational\AbstractFactory\CellPhoneManufacturer\CellPhoneManufacturer.csproj", "{9F299A00-E038-4BBC-A45B-9A1E25A9CB74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CellPhoneManufacturer", "Creational\AbstractFactory\CellPhoneManufacturer\CellPhoneManufacturer.csproj", "{9F299A00-E038-4BBC-A45B-9A1E25A9CB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithSingletonPattern", "Creational\AbstractFactory\AbstractFactoryWithSingletonPattern\AbstractFactoryWithSingletonPattern.csproj", "{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{9F299A00-E038-4BBC-A45B-9A1E25A9CB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F299A00-E038-4BBC-A45B-9A1E25A9CB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F299A00-E038-4BBC-A45B-9A1E25A9CB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{D1E53AA7-0E22-4100-9171-B47535A3A0EB} = {C56A9A9C-DDEC-4A28-9C11-701D01CD52C7}
 		{4B747476-1D03-4E65-AAC1-F02BF0E16AF5} = {4D2F38DB-9A2A-4D40-ABCC-4C915EFA7C97}
 		{9F299A00-E038-4BBC-A45B-9A1E25A9CB74} = {4B747476-1D03-4E65-AAC1-F02BF0E16AF5}
+		{0E0120E8-F146-42E8-91F4-DB67CD67ECD9} = {4B747476-1D03-4E65-AAC1-F02BF0E16AF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E656681-A371-46CD-8D34-42FD85FB67AE}
