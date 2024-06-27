@@ -19,15 +19,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CellPhoneManufacturer", "Creational\AbstractFactory\CellPhoneManufacturer\CellPhoneManufacturer.csproj", "{9F299A00-E038-4BBC-A45B-9A1E25A9CB74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithSingletonPattern", "Creational\AbstractFactory\AbstractFactoryWithSingletonPattern\AbstractFactoryWithSingletonPattern.csproj", "{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryWithSingletonPattern", "Creational\AbstractFactory\AbstractFactoryWithSingletonPattern\AbstractFactoryWithSingletonPattern.csproj", "{0E0120E8-F146-42E8-91F4-DB67CD67ECD9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{2FBAE324-B66D-4046-AE93-3DDE4E22C63E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Housing", "Creational\Builder\Housing\Housing.csproj", "{51C7409B-82F0-434F-8D61-799DCAF5453F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Housing", "Creational\Builder\Housing\Housing.csproj", "{51C7409B-82F0-434F-8D61-799DCAF5453F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{65819217-0328-418A-87B7-E9E3F5FCBAFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OS-Management", "Creational\Prototype\OS-Management\OS-Management.csproj", "{012EB4A5-89D1-4786-B626-EFB69B3C3190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OS-Management", "Creational\Prototype\OS-Management\OS-Management.csproj", "{012EB4A5-89D1-4786-B626-EFB69B3C3190}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{292187F7-5460-46F0-8473-87A89ACAD83A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
