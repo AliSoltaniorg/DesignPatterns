@@ -1,12 +1,4 @@
-﻿
-
-
-
-
-
-
-
-public interface IOperatingSystem
+﻿public interface IOperatingSystem
 {
   public string Name { get; set; }
 

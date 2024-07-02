@@ -1,13 +1,4 @@
-﻿
-
-
-
-
-
-
-
-
-public class Requirement
+﻿public class Requirement
 {
   public Requirement(byte RAM, byte CPUCoreCount, string CPUName, byte GPU)
   {
